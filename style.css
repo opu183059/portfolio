@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.headersection{
+    background-color: rgba(0, 0, 0, 0.11);
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-top: 0;
+    position: fixed;
+}
+.headersection .header{
+
+}
+.headersection .header .menu{
+text-align: center;
+
+}
+.headersection .header .menu ul {
+    margin: 0;
+}
+.headersection .header .menu li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+.headersection .header .menu li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 20px;
+    transition: all 0.4s;
+}
+.headersection .header .menu li a:hover{
+    color: #FF7052;
+}
+
+
+section {
+    padding-top: 50px;
+    max-width: 1140px;
+    width: 100%;
+    height: 90vh;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.half {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.blueText {
+    color: #FFA500;
+}
+
+.orengeButton {
+    text-decoration: none;
+    background: linear-gradient( 45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.two .half img {
+    width: 500px;
+    height: 500px;
+}
+
+.dream img{
+    width: 420px;
+    height: 300px;
+}
+.three{
+    padding-top: 100px;
+}
+.four{
+    padding-top: 100px;
+}
+.box{
+    height: 400px;
+    /* box-shadow: 3px 3px 20px rgb(99, 99, 99); */
+    transition: all .4s;
+}
+.box:hover{
+    transform: scale(1.08);
+    box-shadow: 3px 3px 20px rgb(99, 99, 99);
+}
+.box1:hover{
+    border-image: linear-gradient(45deg, tomato, red);
+    border-left: 7px solid;
+    border-image-slice: 1;
+}
+.box2:hover{
+    border-image: linear-gradient(45deg, rgb(133, 40, 255), rgb(0, 148, 247));
+    border-left: 7px solid;
+    border-image-slice: 1;
+}
+
+.footer{
+    text-align: center;
+}
