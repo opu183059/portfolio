@@ -85,12 +85,6 @@ section {
 .four{
     padding-top: 70px;
 }
-.four h2{
-    margin-left: 80px;
-    font-weight: bold;
-    border-bottom: 1px solid gray;
-}
-
 .box{
     height: 400px;
     /* box-shadow: 3px 3px 20px rgb(99, 99, 99); */
@@ -131,11 +125,5 @@ footer{
     }
     .three{
         margin-bottom: 20px;
-    }
-    .four h2{
-        margin-left: 30px;
-        height: 50px;
-        position: relative;
-        padding-top: 300px;
     }
 }
