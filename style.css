@@ -126,4 +126,14 @@ footer{
     .three{
         margin-bottom: 20px;
     }
+    .two .half img {
+        width: 350px;
+        height: 300px;
+        margin-top: 50px;
+    }
+    .dream img {
+        width: 335px;
+        height: 240px;
+        margin-top: 60px;
+    }
 }
